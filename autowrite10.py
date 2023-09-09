@@ -93,7 +93,7 @@ if __name__ == "__main__":
         k = k + 2
                 
     tagName = "YES24,자기계발,자동포스팅"
-    visiblityCd = "0"    # 발행상태 (0: 비공개 - 기본값, 1: 보호, 3: 발행)
+    visiblityCd = "3"    # 발행상태 (0: 비공개 - 기본값, 1: 보호, 3: 발행)
     publishedDt = None   # 발행시간 (TIMESTAMP 이며 미래의 시간을 넣을 경우 예약. 기본값: 현재시간)    
     # 티스토리 API 이용하여 포스트 등록
     postWrite(blog_name=blogName, title=t_title, content=contentAll, visibility=visiblityCd, category_id=categoryId, published=publishedDt, 
